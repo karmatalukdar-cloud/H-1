@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kai Delacroix — Formula Driver</title>
+<meta name="description" content="Official hub for Formula racer Kai Delacroix: race updates, season stats, gallery and behind-the-scenes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <a href="#top" class="nav__mark">KD.</a>
+    <div class="nav__links">
+      <a href="#top">Home</a>
+      <a href="#on-track">On Track</a>
+      <a href="#off-track">Off Track</a>
+      <a href="#helmets">Helmets</a>
+      <a href="#follow">Follow</a>
+    </div>
+    <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu">Menu</button>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <div class="hero__bg"></div>
+    <img class="hero__track-lines" src="assets/track-lines.svg" alt="" aria-hidden="true">
+
+    <div class="hero__eyebrow-row">
+      <span class="eyebrow">Formula Racing / Since 2019</span>
+      <div class="hero__next-race">
+        Next Race
+        <strong>Zandvoort GP →</strong>
+      </div>
+    </div>
+
+    <h1 class="hero__title">
+      <span class="outline">Kai</span>
+      <span class="fill">Delacroix</span>
+    </h1>
+
+    <div class="hero__sub">
+      <p><strong>2025 Season</strong> — Formula 1 Driver, Vantage Racing Team</p>
+    </div>
+
+    <a href="#on-track" class="hero__scroll">Scroll</a>
+  </header>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Vantage Racing</span><span>Race Number 4</span><span>Formula 1</span><span>Since 2019</span>
+      <span>Vantage Racing</span><span>Race Number 4</span><span>Formula 1</span><span>Since 2019</span>
+    </div>
+  </div>
+
+  <!-- ============ MESSAGE / GALLERY STRIP ============ -->
+  <section class="section section--tight">
+    <div class="section__head">
+      <div>
+        <span class="eyebrow">Message</span>
+        <h2 class="section__title">Redefining Limits.</h2>
+      </div>
+      <p class="section__desc">Fighting for wins, bringing it in every session. Building a legacy on and off the track — one race at a time.</p>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <!-- cards injected by JS -->
+    </div>
+  </section>
+
+  <!-- ============ ON TRACK / OFF TRACK SPLIT ============ -->
+  <section class="split">
+    <a href="#" class="split__panel" id="on-track">
+      <span class="eyebrow">01</span>
+      <h3 class="split__label">On<br>Track</h3>
+      <p>Race results, career stats and highlights from every grand prix weekend.</p>
+      <span class="split__link">View results <span class="arrow">→</span></span>
+    </a>
+    <a href="#" class="split__panel" id="off-track">
+      <span class="eyebrow">02</span>
+      <h3 class="split__label">Off<br>Track</h3>
+      <p>Campaigns, shoots and behind-the-scenes moments away from the circuit.</p>
+      <span class="split__link">View gallery <span class="arrow">→</span></span>
+    </a>
+  </section>
+
+  <!-- ============ HELMETS ============ -->
+  <section class="section" id="helmets">
+    <div class="section__head">
+      <div>
+        <span class="eyebrow">Gear</span>
+        <h2 class="section__title">Helmet Archive</h2>
+      </div>
+      <p class="section__desc">From clean season liveries to one-off designs — every helmet tells the story of a race weekend.</p>
+    </div>
+
+    <div class="helmets" id="helmets-grid"></div>
+  </section>
+
+  <!-- ============ PARTNERS ============ -->
+  <section class="partners">
+    <div class="partners__row" id="partners-row"></div>
+  </section>
+
+  <!-- ============ SOCIAL STRIP ============ -->
+  <section class="social-strip" id="follow">
+    <h2 class="social-strip__title">Follow the season as it happens.</h2>
+    <div class="social-strip__links">
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">YouTube</a>
+      <a href="#">Twitch</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        KD.
+        <p>Formula 1 driver for Vantage Racing. Always bringing the fight, on every surface.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Pages</h4>
+        <a href="#top">Home</a>
+        <a href="#on-track">On Track</a>
+        <a href="#off-track">Off Track</a>
+        <a href="#helmets">Helmets</a>
+      </div>
+      <div class="footer__col">
+        <h4>Follow</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+        <a href="#">Twitch</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="mailto:business@example.com">business@example.com</a>
+        <span>Press &amp; Enquiries</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Kai Delacroix. All rights reserved.</span>
+      <div>
+        <a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <p class="copy-note">Demo site for a class presentation. Driver, team and brand names are fictional; all imagery is generated in-page (CSS/SVG), no third-party photos or logos used.</p>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
